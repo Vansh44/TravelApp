@@ -1,0 +1,127 @@
+.trip-card {
+  width: 360px;
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.09);
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.trip-card:hover {
+  transform: translateY(-4px);
+}
+
+.trip-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.card-badges {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: flex;
+  gap: 8px;
+  z-index: 2;
+}
+
+.badge {
+  padding: 4px 10px;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: medium;
+  line-height: 100%;
+  border-radius: 999px;
+  color: #fff;
+  position: absolute;
+  top: 12px;
+}
+
+.badge-left {
+  left: 1px;
+}
+
+.badge-right {
+  right: -335px;
+}
+
+.badge-red {
+  background: #e63946;
+}
+
+.badge-green {
+  background: #38b000;
+}
+
+.trip-content {
+  padding: 18px 20px;
+  text-align: left;
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.star {
+  color: #facc15;
+}
+
+.trip-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #111827;
+  margin: 6px 0 12px;
+}
+
+.trip-details p {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #6b7280;
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.price-row {
+  margin-top: 14px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.price-current {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.price-old {
+  text-decoration: line-through;
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+.btn-book {
+  margin-top: 16px;
+  background: #2563eb;
+  color: white;
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.btn-book:hover {
+  background: #1e4fcf;
+}

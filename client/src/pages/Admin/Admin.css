@@ -1,0 +1,282 @@
+.admin-page {
+  background: #f3f4f6;
+  min-height: 100vh;
+  padding: 40px 0;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+}
+
+.admin-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 32px 40px 40px;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.08);
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 28px;
+}
+
+.admin-title {
+  font-family: montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #111827;
+  margin-bottom: 4px;
+}
+
+.admin-subtitle {
+  font-family: montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #000000;
+}
+
+.overview-section {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 32px;
+}
+
+.overview-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 18px;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+}
+
+.overview-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.overview-blue .overview-icon {
+  background: rgba(37, 99, 235, 0.1);
+  color: #2563eb;
+}
+
+.overview-green .overview-icon {
+  background: rgba(34, 197, 94, 0.1);
+  color: #16a34a;
+}
+
+.overview-yellow .overview-icon {
+  background: rgba(245, 158, 11, 0.1);
+  color: #f59e0b;
+}
+
+.overview-label {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 4px;
+}
+
+.overview-value {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.section-block + .section-block {
+  margin-top: 36px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.section-caption {
+  font-size: 12px;
+  color: #9ca3af;
+  margin-top: 2px;
+}
+
+.section-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  border-radius: 999px;
+  font-size: 13px;
+  padding: 7px 16px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.btn-outline {
+  background: #ffffff;
+  border-color: #e5e7eb;
+  color: #374151;
+}
+
+.btn-outline:hover {
+  background: #f3f4f6;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: #ffffff;
+  border-color: #2563eb;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+}
+
+.btn-secondary {
+  background: #f9fafb;
+  color: #111827;
+  border-color: #e5e7eb;
+}
+
+.table-wrapper {
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.admin-table thead {
+  background: #f9fafb;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.admin-table th {
+  font-weight: 500;
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.admin-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+.empty-row {
+  text-align: center;
+  padding: 18px 0;
+  color: #9ca3af;
+}
+
+.th-actions {
+  text-align: right;
+}
+
+.actions-cell {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.icon-btn {
+  border: none;
+  background: transparent;
+  padding: 4px;
+  border-radius: 999px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-btn {
+  color: #2563eb;
+}
+
+.edit-btn:hover {
+  background: rgba(37, 99, 235, 0.08);
+}
+
+.delete-btn {
+  color: #dc2626;
+}
+
+.delete-btn:hover {
+  background: rgba(220, 38, 38, 0.08);
+}
+
+.status-pill {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-pill.confirmed {
+  background: rgba(34, 197, 94, 0.08);
+  color: #16a34a;
+}
+
+.status-pill.pending {
+  background: rgba(245, 158, 11, 0.08);
+  color: #d97706;
+}
+
+.qr-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.qr-yes {
+  background: #22c55e;
+}
+
+.qr-no {
+  background: #e5e7eb;
+}
+
+.loading-text {
+  font-size: 13px;
+  color: #6b7280;
+  padding: 12px 4px;
+}

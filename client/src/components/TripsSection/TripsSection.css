@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding-top: 80px;
+  background: #fff;
+}
+
+.trips-section {
+  background-color: #fff;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 6px 20px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.trips-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.trips-section p {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 40px;
+}
+
+.trips-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  justify-items: center;
+}

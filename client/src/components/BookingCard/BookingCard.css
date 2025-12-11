@@ -1,0 +1,104 @@
+.booking-card {
+  background: #fff;
+  padding: 22px;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+  font-family: "Inter", sans-serif;
+}
+
+.upcoming-card {
+  width: 525px;
+}
+
+.past-card {
+  width: 330px;
+}
+
+.booking-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.booking-id {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  color: #6b7280;
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.badge {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.badge-blue {
+  background: #2563eb;
+}
+
+.badge-green {
+  background: #16a34a;
+}
+
+.booking-route {
+  font-family: Montserrat;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #111827;
+}
+
+.booking-details p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0;
+  color: #4b5563;
+  font-size: 14px;
+}
+
+.booking-action {
+  margin-top: 10px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.upcoming-action {
+  background: rgb(222, 233, 252);
+  color: black;
+}
+
+.past-action {
+  background: rgb(227, 251, 233);
+  color: #047857;
+}
+
+.icon {
+  color: rgb(54, 98, 227);
+}
+
+.icon2 {
+  color: rgb(157, 163, 174);
+}
+
+.booking-id-icon.upcoming {
+  color: #2563eb;
+}
+
+.booking-id-icon.past {
+  color: #16a34a;
+}
