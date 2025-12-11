@@ -97,7 +97,6 @@ const TripsSection = () => {
       rating: 4.8,
       reviews: 120,
       oldPrice: oldPrice,
-      tag: "New",
       discount: discount,
     };
   });

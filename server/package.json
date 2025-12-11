@@ -4,25 +4,20 @@
   "description": "",
   "main": "index.js",
   "type": "commonjs",
-
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-
     "prettier": "prettier --write \"src/**/*.js\"",
     "format": "prettier --write \"src/**/*.js\"",
     "format:check": "prettier --check \"src/**/*.js\"",
-
     "fix": "npm run lint:fix && npm run prettier",
-
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "dependencies": {
     "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
@@ -31,7 +26,6 @@
     "mongoose": "^9.0.1",
     "multer": "^2.0.2"
   },
-
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "eslint": "^9.39.1",

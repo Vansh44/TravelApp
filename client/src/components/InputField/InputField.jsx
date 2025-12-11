@@ -1,3 +1,5 @@
+import './InputField.css';
+
 const InputField = ({ label, type = "text", placeholder, icon, value, onChange, inputClass }) => {
   return (
     <div className="input-wrapper">

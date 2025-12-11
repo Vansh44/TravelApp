@@ -74,12 +74,12 @@ assignment/
 
 ## Key Features
 
-✅ User Authentication (Register/Login)  
-✅ Trip Management (CRUD operations)  
-✅ Admin Dashboard with Statistics  
-✅ Photo Upload for Trips  
-✅ Protected Routes  
-✅ Responsive Design  
+- User Authentication (Register/Login)  
+- Trip Management (CRUD operations)  
+- Admin Dashboard with Statistics  
+- Photo Upload for Trips  
+- Protected Routes  
+- Responsive Design  
 
 ## Available Commands
 

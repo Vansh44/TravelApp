@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./SearchBar.css";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { FaRegCalendarAlt } from "react-icons/fa";
+import { FaMapMarkerAlt, FaRegCalendarAlt } from "react-icons/fa";
 
 const SearchBar = () => {
   const [from, setFrom] = useState("");
@@ -11,7 +10,9 @@ const SearchBar = () => {
   return (
     <div className="search-wrapper">
       <h1 className="search-title">Find Your Next Journey</h1>
-      <p className="search-subtitle">Discover available trips and book your seats with ease.</p>
+      <p className="search-subtitle">
+        Discover available trips and book your seats with ease.
+      </p>
 
       <div className="search-card">
         <div className="field-group">

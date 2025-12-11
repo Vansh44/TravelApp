@@ -10,8 +10,8 @@ const Profile = () => {
         <img src={userPic} alt="Profile" className="profile-photo" />
 
         <div className="profile-text">
-          <h3 className="profile-name">Alex Johnson</h3>
-          <p className="profile-email">alex.johnson@email.com</p>
+          <h3 className="profile-name">Vansh Gupta</h3>
+          <p className="profile-email">vansh.gupta@email.com</p>
 
           <a href="#" className="profile-manage">
             Manage Profile

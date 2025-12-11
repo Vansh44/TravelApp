@@ -1,0 +1,55 @@
+/* Wrapper for each field */
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+/* Field label */
+.input-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 6px;
+}
+
+/* Outer box for input + icon */
+.input-box {
+  position: relative;
+  width: 100%;
+}
+
+/* Actual Input */
+.input-field {
+  width: 100%;
+  padding: 14px 16px;
+  padding-right: 42px; /* Space for right icon */
+  
+  background: #ffffff;
+  border: 2px solid #e5e7eb; /* Light gray border */
+  border-radius: 8px;
+
+  font-size: 14px;
+  color: #111827;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Focus state matching Figma */
+.input-field:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* Input Icons (Email, Password) */
+.input-icon {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+  font-size: 16px;
+  pointer-events: none;
+}
